@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App</title>
+</head>
+<body>
+    <h1>Submit User</h1>
+    <form id="userForm">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="text" id="phone" placeholder="Phone" required />
+        <input type="number" id="age" placeholder="Age" required />
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Response:</h2>
+    <div id="response"></div>
+
+    <hr>
+
+    <h1>Fetch Users</h1>
+    <button id="fetchUsers">Fetch Users</button>
+    <div id="usersList"></div>
+
+    <hr>
+
+    <h1>Submit Product</h1>
+    <form id="productForm">
+        <input type="text" id="productName" placeholder="Product Name" required />
+        <textarea id="productDescription" placeholder="Product Description" required></textarea>
+        <input type="number" id="productPrice" placeholder="Price" required />
+        <button type="submit">Submit Product</button>
+    </form>
+
+    <h2>Product Response:</h2>
+    <div id="productResponse"></div>
+
+    <hr>
+
+    <h1>Fetch Products</h1>
+    <button id="fetchProducts">Fetch Products</button>
+    <div id="productsList"></div>
+    <script src="script.js"></script>
+</body>
+</html>
